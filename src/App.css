@@ -1,6 +1,84 @@
 .App {
   text-align: center;
 }
+.bara {
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  color: inherit;
+  text-decoration: inherit;
+  outline: none;
+}
+.page {
+  margin-top: 20px;
+  
+  
+}
+
+.page-top {
+  display: flex;
+  flex:1;
+  width: 100%;
+  height: 80px;
+}
+
+.page-top_image {
+  justify-content: center;
+  align-items: center;
+  margin-right: 90px;
+  margin-left: 160px;
+  
+}
+.img {
+  border: 2px solid rgb(0, 0, 0);
+}
+
+  
+.tip {
+  text-align: left;
+  font-size: 25px;
+  color: inherit;
+  text-decoration: inherit;
+  outline: none;
+  font-family: RobotoThin;
+}
+.paragraph{
+  margin-right: 20px;
+  text-align: left;
+}
+.top {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.header-top__seperator {
+  width: 100%;
+  border: none;
+  height: 2px;
+  margin-top: 2px;
+  background-color: black;
+}
+
+.top__navigation {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 75%;
+}
+
+
+
+
+
+
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +114,78 @@
     transform: rotate(360deg);
   }
 }
+.header {
+  margin-top: 20px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.header-top {
+  display: flex;
+  width: 100%;
+  height: 80px;
+}
+
+.header-top__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.header-logo {
+  color: inherit;
+  text-decoration: inherit;
+  font-family: RobotoThin;
+  font-size: 100px;
+}
+
+.header-top__navbar {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.header-top__seperator {
+  width: 100%;
+  border: none;
+  height: 2px;
+  margin-top: 2px;
+  background-color: black;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  color: inherit;
+  text-decoration: inherit;
+  text-transform: uppercase;
+  outline: none;
+}
+.header-top__navigation {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 55px;
+}
+
+.dreptunghi{
+  text-align: center;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: crimson;
+  margin-top: 17%;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  
+}
+
+

@@ -1,13 +1,15 @@
 import React from 'react';
 import { BrowserRouter as Link } from "react-router-dom" ;
-import './Navbar.css'
 
-function Navbar () {
 
+function Navigare () {
+ 
+  
   return (
     <section className="navbar">
-      <a href="/" className="navbar-item">Personal information</a>
-      <Link to='/../../employment'>Employment History</Link>
+      
+      <Link to='/'><button>Personal information</button></Link>
+      <Link to='/second'><button>Employment History</button></Link>
       <a href="/portfolio" className="navbar-item">Education</a>
       <a href="/shop" className="navbar-item">Review page</a>
       
@@ -16,4 +18,4 @@ function Navbar () {
 
 }
 
-export default Navbar;
+export default Navigare;
