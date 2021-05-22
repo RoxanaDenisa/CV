@@ -63,12 +63,12 @@ Maven Build system and we used Junit for testing. We also used GitHub and Jira.<
         </div>
       );
       const Edu=()=>(
-        <div className="App">
+        <div className="Third">
           <Third />
         </div>
       );
       const Revi=()=>(
-        <div className="App">
+        <div className="Revi">
           <Review />
         </div>
       );

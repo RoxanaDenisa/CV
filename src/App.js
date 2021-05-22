@@ -1,6 +1,7 @@
 import React from 'react';
 import Second from './Second';
 
+import Review from './Review';
 import Third from './Third';
 import {Route, BrowserRouter as Router, Switch,Link} from 'react-router-dom'
 import './App.css';
@@ -84,7 +85,7 @@ improve myself as a person, always glad to communicate and I have a constant hun
   );
   const Revi=()=>(
     <div className="App">
-      <Second />
+      <Review />
     </div>
   );
   return (
