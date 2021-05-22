@@ -16,10 +16,10 @@ function App() {
           <section className="header-top__navigation">
           <section className="navbar">
       
-                <Link to='/'><p className="navbar-item">Personal information</p></Link>
-                <Link to='/empl'><p className="navbar-item">Employment History</p></Link>
-                <Link to='/educ'><p className="navbar-item">Education</p></Link>
-                <Link to='/review'><p className="navbar-item">Review Page</p></Link>
+                <Link to='/'className="navbar-item">Personal information</Link>
+                <Link to='/empl' className="navbar-item">Employment History</Link>
+                <Link to='/educ' className="navbar-item">Education</Link>
+                <Link to='/review' className="navbar-item">Review Page</Link>
                 
   </section>
           </section>
