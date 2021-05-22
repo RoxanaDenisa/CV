@@ -1,6 +1,7 @@
 import React from 'react';
 import './Cont.css';
 import { Bara } from '../../common' ;
+import { Dreptunghi } from '../../common' ;
 function Cont(){
     return (
         <section className="page">
@@ -25,7 +26,14 @@ improve myself as a person, always glad to communicate and I have a constant hun
               
             </section>
            
+           
           </section>
+          <section className="top">
+            <Dreptunghi />
+                
+                
+         </section>
+         
           
         </section>
         
