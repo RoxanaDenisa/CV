@@ -1,0 +1,9 @@
+.dreptunghi{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: crimson;
+    margin-top: 17%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    
+}
