@@ -47,3 +47,11 @@
     font-family: 'Times New Roman', Times, serif;
   
   }
+  .buton{
+  text-decoration: none;
+	border-radius: 14px;
+  border: solid black 2px;
+	font-weight:bold;
+	color: crimson;
+  padding: 10px 29px;
+  }

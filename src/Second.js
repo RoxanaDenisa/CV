@@ -36,22 +36,22 @@ function Second () {
             <h1 className='dim'>Employment History</h1>
             <p>
                 <ul className='si1'>
-                    <li >Mobile Application at Politehnica University of Timișoara</li>
+                    <li >Mobile Application at Politehnica University of Timișoara </li>
                     <p className='paragraph1'>April 2021 - May 2021</p>
                     <p className='paragraph2'>The application name is Blind and it was made by me and one of my colleague.As fronted, we use Flutter and as backend, for database, we use Firebase. We also use
-Github.</p>
+Github. <br></br><br></br><a href="https://github.com/RoxanaDenisa/AppForBlindPeople"><button className='buton'>View project</button></a></p>
                     <li >Mobile Application at Politehnica University of Timișoara</li>
                     <p className='paragraph1'>February 2021 - May 2021</p>
                     <p className='paragraph2'>The application name is TravelApp and it was made by me and one of my colleague.As fronted, we use Flutter and as backend, for database, we use Firebase. We also use
-Github.</p>
+Github.<br></br><br></br><a href="https://github.com/RoxanaDenisa/TravelApp"><button className='buton'>View project</button></a></p>
                     <li>Web Application at Politehnica University of Timișoara</li>
                     <p className='paragraph1'>September 2020 - October 2020</p>
-                    <p className='paragraph2'>This application is an clother store. I used Xampp with Apache and MySQL for database.</p>
+                    <p className='paragraph2'>This application is an clother store. I used Xampp with Apache and MySQL for database.<br></br><br></br><a href="https://github.com/RoxanaDenisa/Web-app"><button className='buton'>View project</button></a></p>
                     <li>Desktop Java Application at Politehnica University of Timișoara</li>
                     <p className='paragraph1'>April 2020 - June 2020</p>
                     <p className='paragraph2'>The application name is MakeUp Store and it was made by me and one of my
 colleague, implemented in Java. We worked with JavaFx interactive graphic interface,
-Maven Build system and we used Junit for testing. We also used GitHub and Jira.</p>
+Maven Build system and we used Junit for testing. We also used GitHub and Jira.<br></br><br></br><a href="https://github.com/RoxanaDenisa/MakeUpStore"><button className='buton'>View project</button></a></p>
                 </ul>
             </p>
         </section>

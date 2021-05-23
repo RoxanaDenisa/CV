@@ -14,8 +14,11 @@
     outline: none;
   }
   .page3 {
+    border: solid #5a5a5a 2px;
+	border-radius: 6px;
     margin-top: 20px;
-
+    margin-right: 10px;
+    margin-left: 10px;
     
     
   }
@@ -65,11 +68,14 @@
     border: 2px solid rgb(0, 0, 0);
 }
 .dreptunghi1{
-  border: 2px solid rgb(0, 0, 0);
+  border: solid #5a5a5a 2px;
+	border-radius: 6px;
   background-color: crimson;
   flex: 1;
   flex-direction: column;
   margin-top: 50px;
+  margin-right: 10px;
+    margin-left: 10px;
   
 }
 .dreptunghi2{
