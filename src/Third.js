@@ -39,6 +39,45 @@ function Third () {
           <hr className="header-top__seperator" />
         </section>
       </section>
+      <section className='page3'>
+        <section className='page3-top'>
+            <h1 className='dim'>Education</h1>
+            <p>
+                <ul className='si1'>
+                    <li >Automation and Computer Engineering, Politehnica University of Timișoara</li>
+                    <p className='paragraph1'>September 2018 – present</p>
+                    <p>I have studied:</p>
+                    <ul className='paragraph2'> 
+                        <li> C and Java programming</li>
+                        <li>Web programming</li>
+                        <li>Operating System</li>
+                        <li>Software Engineering Fundaments</li>
+                    </ul>
+                   
+                </ul>
+            </p>
+        </section>
+        
+        </section>
+        <div className="dreptunghi1">
+        <h1>S K I L L S:</h1>
+        <section >
+        <p><b>C++:<br></br>      </b>●●●●●●◌◌◌</p>
+        <p ><b>HTML:<br></br>●●●●●●●◌◌ </b></p>
+        
+        </section>
+        </div>
+        <section className="dreptunghi2">
+        <p ><b>C:        <br></br>     ●●●●●●●●</b>◌</p> 
+        <p ><b>Java:    <br></br>  </b>●●●●●●◌◌◌</p>
+        
+        </section>
+        <section className="dreptunghi3">
+        <p><b>Team-working:<br></br> ●●●●●●●●●</b></p>
+        <p><b>Communication:<br></br> ●●●●●●●●● </b></p>
+        </section>
+   
+        
         </section>
         
     );
