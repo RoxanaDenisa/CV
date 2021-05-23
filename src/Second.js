@@ -1,7 +1,6 @@
 import React from 'react';
 import App from './App';
 import Third from './Third';
-import Review from './Review';
 import {Route, BrowserRouter as Router, Switch,Link} from 'react-router-dom'
 import './Second.css';
 function Second () {
@@ -25,7 +24,6 @@ function Second () {
                 <Link to='/'className="navbar-item">Personal information</Link>
                 <Link to='/empl'className="navbar-item">Employment History</Link>
                 <Link to='/educ' className="navbar-item">Education</Link>
-                <Link to='/review' className="navbar-item">Review Page</Link>
                 
   </section>
           </section>
@@ -67,11 +65,7 @@ Maven Build system and we used Junit for testing. We also used GitHub and Jira.<
           <Third />
         </div>
       );
-      const Revi=()=>(
-        <div className="Revi">
-          <Review />
-        </div>
-      );
+      
 
   return (
         
@@ -81,7 +75,6 @@ Maven Build system and we used Junit for testing. We also used GitHub and Jira.<
           <Route path="/" exact component={HomePage}/>
           <Route path="/empl" exact component={Emp}/>
           <Route path="/educ" exact component={Edu}/>
-          <Route path="/review" exact component={Revi}/>
           </Switch>
     </div>
     </Router>
