@@ -1,7 +1,6 @@
 import React from 'react';
 import App from './App';
 import Second from './Second';
-import Review from './Review';
 
 import {Route, BrowserRouter as Router, Switch,Link} from 'react-router-dom'
 import './Third.css';
@@ -32,7 +31,6 @@ function Third () {
                 <Link to='/'className="navbar-item">Personal information</Link>
                 <Link to='/empl'className="navbar-item">Employment History</Link>
                 <Link to='/educ' className="navbar-item">Education</Link>
-                <Link to='/review' className="navbar-item">Review Page</Link>
                 
   </section>
           </section>
@@ -68,7 +66,7 @@ function Third () {
         </section>
         </div>
         <section className="dreptunghi2">
-        <p ><b>C:        <br></br>     ●●●●●●●●</b>◌</p> 
+        <p ><b>C:        <br></br>     ●●●●●●●</b>◌◌</p> 
         <p ><b>Java:    <br></br>  </b>●●●●●●◌◌◌</p>
         
         </section>
@@ -81,11 +79,7 @@ function Third () {
         </section>
         
     );
-    const Revi=()=>(
-      <div className="App">
-        <Review />
-      </div>
-    );
+    
   return (
     <Router> 
     <div>
@@ -93,7 +87,6 @@ function Third () {
           <Route path="/" exact component={HomePage}/>
           <Route path="/empl" exact component={Emp}/>
           <Route path="/educ" exact component={Edu}/>
-          <Route path="/review" exact component={Revi}/>
           </Switch>
     </div>
     </Router>

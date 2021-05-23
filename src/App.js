@@ -1,7 +1,5 @@
 import React from 'react';
 import Second from './Second';
-
-import Review from './Review';
 import Third from './Third';
 import {Route, BrowserRouter as Router, Switch,Link} from 'react-router-dom'
 import './App.css';
@@ -20,7 +18,6 @@ function App() {
                 <Link to='/'className="navbar-item">Personal information</Link>
                 <Link to='/empl' className="navbar-item">Employment History</Link>
                 <Link to='/educ' className="navbar-item">Education</Link>
-                <Link to='/review' className="navbar-item">Review Page</Link>
                 
   </section>
           </section>
@@ -83,11 +80,7 @@ improve myself as a person, always glad to communicate and I have a constant hun
       <Third />
     </div>
   );
-  const Revi=()=>(
-    <div className="App">
-      <Review />
-    </div>
-  );
+
   return (
     <Router> 
     <div>
@@ -95,7 +88,6 @@ improve myself as a person, always glad to communicate and I have a constant hun
           <Route path="/" exact component={HomePage}/>
           <Route path="/empl" exact component={Emp}/>
           <Route path="/educ" exact component={Edu}/>
-          <Route path="/review" exact component={Revi}/>
           </Switch>
     </div>
     </Router>
