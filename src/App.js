@@ -1,6 +1,7 @@
 import React from 'react';
 import Second from './Second';
 
+import Review from './Review';
 import Third from './Third';
 import {Route, BrowserRouter as Router, Switch,Link} from 'react-router-dom'
 import './App.css';
@@ -40,7 +41,7 @@ function App() {
             <section className="top">
             <section className="bara">
       <a href="https://www.facebook.com/VirlanRoxana" className="item"><img src="/images/facebook.png" width="40" height="40"/> Facebook</a>
-      <a href="linkedin.com/in/roxana-vîrlan-8b48941a2" className="item"><img src="/images/linkedin.png" width="30" height="30"/>Linkedin</a>
+      <a href="https://www.linkedin.com/in/roxana-v%C3%AErlan-8b48941a2/" className="item"><img src="/images/linkedin.png" width="30" height="30"/>Linkedin</a>
       <a href="https://github.com/RoxanaDenisa" className="item"><img src="/images/github.png" width="40" height="40"/>Github</a>
       
   </section>
@@ -84,7 +85,7 @@ improve myself as a person, always glad to communicate and I have a constant hun
   );
   const Revi=()=>(
     <div className="App">
-      <Second />
+      <Review />
     </div>
   );
   return (
